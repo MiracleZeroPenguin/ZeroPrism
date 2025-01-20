@@ -152,6 +152,7 @@ export default makeSource({
     ],
   },
   onSuccess: async (importData) => {
+    console.log('importData', importData)
     const { allBlogs } = await importData()
     createTagCount(allBlogs)
     createSearchIndex(allBlogs)

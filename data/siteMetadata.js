@@ -1,20 +1,20 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Web3研习社',
-  author: 'Jack Chen',
-  headerTitle: 'Web3研习社',
-  description: '分享 JavaScript 以及热门框架，记录Web3前端工程师学习成长历程。',
-  language: 'en-us',
+  title: 'ZeroPrism',
+  author: 'MiracleZero',
+  headerTitle: 'ZeroPrism',
+  description: '我正在从零开始记录',
+  language: 'zh-CN',
   theme: 'system', // system, dark or light
   siteUrl: 'https://54web3.cc',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/favicons/favicon.ico',
   socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: '278910933@qq.com',
-  github: 'https://github.com/jackchen0120',
-  juejin: 'https://juejin.cn/user/1714893872433928/posts',
-  csdn: 'https://blog.csdn.net/qq_15041931?type=lately',
+  // mastodon: 'https://mastodon.social/@mastodonuser',
+  email: 'ljy28501@163.com',
+  github: 'https://github.com/MiracleZeroPenguin',
+  // juejin: 'https://juejin.cn/user/1714893872433928/posts',
+  // csdn: 'https://blog.csdn.net/qq_15041931?type=lately',
   // twitter: 'https://twitter.com/Twitter',
   // facebook: 'https://facebook.com',
   // youtube: 'https://youtube.com',
@@ -44,11 +44,11 @@ const siteMetadata = {
     //   googleAnalyticsId: '', // e.g. G-XXXXXXX
     // },
   },
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
-  },
+  // newsletter: {
+  //   // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
+  //   // Please add your .env file and modify it according to your selection
+  //   provider: 'buttondown',
+  // },
   comments: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.

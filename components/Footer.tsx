@@ -33,7 +33,7 @@ export default function Footer() {
           <div>{` • `}</div>
           <Link href="/">{siteMetadata.title}</Link>
         </div>
-        <div className="mb-8 text-center text-sm text-gray-500 dark:text-gray-400">
+        {/* <div className="mb-8 text-center text-sm text-gray-500 dark:text-gray-400">
           <Link href="http://beian.miit.gov.cn">湘ICP备2023013145号-1</Link>
           <Link
             href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43012102000901"
@@ -48,7 +48,7 @@ export default function Footer() {
             />
             湘公网安备43012102000901号
           </Link>
-        </div>
+        </div> */}
       </div>
     </footer>
   )
